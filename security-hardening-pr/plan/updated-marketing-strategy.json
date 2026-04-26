@@ -1,0 +1,295 @@
+{
+  "updated_strategy": {
+    "date": "2026-04-26",
+    "source": "Research sprint: competitive landscape + devtool marketing + hackathon patterns",
+    "market_positioning": {
+      "headline": "SMS for AI agents",
+      "category": "Agent-to-Agent Communication Layer",
+      "adjacent_protocols": {
+        "MCP": "Tool & data access layer (vertical integrations)",
+        "A2A": "Multi-agent coordination layer (horizontal workflows)",
+        "Agent_Messenger": "Informal/async messaging layer (social coordination)"
+      },
+      "differentiation": [
+        "Decoupled from orchestration \u2014 messaging happens outside task execution",
+        "E2E encrypted by default, asymmetric key-based identity",
+        "Persistent conversation threads with message history",
+        "Multiplexed through single agent address (like phone number)",
+        "Protocol-agnostic backend \u2014 can run over MCP, A2A, or custom transport"
+      ],
+      "why_it_matters": [
+        "No standardized \"casual chat\" protocol between agents exists",
+        "Current solutions focus on delegation (A2A) or tool access (MCP)",
+        "Missing layer: interrupt handling, status updates, team coordination"
+      ]
+    },
+    "target_audiences": [
+      {
+        "segment": "AI Agent Developers (Builders)",
+        "size": "220K+ (LangChain, CrewAI, AutoGen ecosystems)",
+        "pain_points": [
+          "Hard to notify other agents about state changes",
+          "No standard way to ask \"is this agent available?\"",
+          "Manual polling for updates across workflows"
+        ],
+        "channels": [
+          "GitHub README",
+          "LangChain/CrewAI Discord",
+          "r/LocalLLaMA",
+          "Hacker News"
+        ],
+        "messaging_hook": "Your agents can now text each other. No API keys. Just agent addresses."
+      },
+      {
+        "segment": "Enterprise Bot Teams",
+        "pain_points": [
+          "Escalation workflows between specialist agents",
+          "Human-in-the-loop approvals",
+          "Incident response coordination across bot fleets"
+        ],
+        "channels": [
+          "LinkedIn",
+          "Enterprise Slack communities",
+          "Cloud provider marketplaces"
+        ],
+        "messaging_hook": "Production-grade agent SMS with audit trails and RBAC"
+      },
+      {
+        "segment": "Hackathon Teams (Prize-focused)",
+        "pain_points": [
+          "Demo complexity \u2014 need simple, visual agent communication",
+          "Judges want to see conversational flows",
+          "Need interesting narrative (agents talking to each other)"
+        ],
+        "channels": [
+          "Devfolio discord",
+          "ETHGlobal events",
+          "ETH Prague 2026"
+        ],
+        "messaging_hook": "Build the first agent-to-agent payment negotiation bot \u2014 prize eligibility: Network Economy + FinTech tracks"
+      }
+    ],
+    "competitive_landscape": {
+      "mcp_ecosystem": {
+        "player": "Anthropic MCP servers",
+        "strengths": [
+          "Ubiquitous",
+          "Standardized",
+          "Provider-agnostic"
+        ],
+        "weaknesses": [
+          "Tool-focused not chat-focused",
+          "Request/response not async messaging"
+        ],
+        "opportunity": "MCP for function calls, Agent Messenger for sideband coordination"
+      },
+      "a2a_ecosystem": {
+        "player": "Google A2A / Agent2Agent",
+        "strengths": [
+          "Enterprise backing",
+          "Task delegation native"
+        ],
+        "weaknesses": [
+          "Overkill for simple messaging",
+          "Task state machine complexity"
+        ],
+        "opportunity": "Use A2A for structured workflows, Agent Messenger for ad-hoc coordination"
+      },
+      "framework_native": [
+        "LangChain memory + message queues (heavy)",
+        "CrewAI custom communication (proprietary)",
+        "AutoGen groupchat (research-only)"
+      ]
+    },
+    "goto_market_channels": {
+      "phase_1_launch_48h": {
+        "timeline": "Day 0\u20131",
+        "channels": [
+          {
+            "channel": "GitHub repo",
+            "actions": [
+              "README hero GIF",
+              "one-sentence pitch",
+              "5-min quickstart",
+              "explicit star CTA"
+            ]
+          },
+          {
+            "channel": "Reddit",
+            "targets": [
+              "r/LocalLLaMA",
+              "r/MachineLearning",
+              "r/programming"
+            ],
+            "strategy": "Post as \"Open-source tool for agent communication\" \u2014 be community member first (80+ karma)"
+          },
+          {
+            "channel": "Hacker News",
+            "strategy": "Show HN: \"Agent Messenger \u2014 SMS for AI agents\" \u2014 emphasize problem: no chat protocol"
+          }
+        ],
+        "success_metric": "100+ stars/day, trending in 'All Languages' or 'TypeScript'"
+      },
+      "phase_2_developer_content": {
+        "timeline": "Week 2\u20134",
+        "channels": [
+          {
+            "channel": "Technical tutorials",
+            "platforms": [
+              "Dev.to",
+              "Hashnode",
+              "LangChain blog (guest post)"
+            ],
+            "content_types": [
+              "How to implement agent escalation workflows",
+              "Building a multi-agent support desk with Agent Messenger",
+              "Comparing MCP vs A2A vs Agent Messenger: when to use what"
+            ]
+          },
+          {
+            "channel": "YouTube",
+            "creators": [
+              "micro-influencers (5K\u201350K subs) in AI agents space"
+            ],
+            "approach": "Tutorial integrations \u2014 authentic usage, not sponsorship"
+          }
+        ]
+      },
+      "phase_3_hackathon_circuit": {
+        "timeline": "Ongoing",
+        "events": [
+          "ETHGlobal London",
+          "ETHPrague 2026",
+          "ethPrague (summer)",
+          "Devcon"
+        ],
+        "approach": [
+          "Pre-seed bounties on Devfolio for best Agent Messenger integrations",
+          "Live demos at hackathon opening ceremonies",
+          "Sponsor prize: \"Best Agent-to-Agent Coordination\" ($5K pool)"
+        ]
+      },
+      "phase_4_enterprise": {
+        "timeline": "Month 6+",
+        "channels": [
+          "LinkedIn Outbound",
+          "Cloud partner marketplaces",
+          "Enterprise Discord"
+        ],
+        "assets": [
+          "Security whitepaper",
+          "Compliance docs",
+          "Private deployment options"
+        ]
+      }
+    },
+    "messaging_framework": {
+      "problem_statement": "Your AI agents can't casually chat. A2A handles tasks. MCP handles tools. Who handles \"Hey, what's up?\"",
+      "value_proposition": "Agent Messenger gives every AI agent a phone number. Simple, encrypted, async messaging layer for agent coordination.",
+      "proof_points": [
+        "Works alongside MCP + A2A (dual-stack architectures)",
+        "50-line integration for any SpacetimeDB agent",
+        "Built-in rate limiting and audit logs for production",
+        "Open-source, no vendor lock-in"
+      ],
+      "social_proof_targets": [
+        "10+ active open-source integrations (by launch)",
+        "500 stars in first week",
+        "Featured in LangChain newsletter",
+        "ETHGlobal hackathon showcase"
+      ]
+    },
+    "content_calendar_phase_1": [
+      {
+        "week": "Launch week",
+        "pieces": [
+          "GitHub repo with polished README + demo video",
+          "Reddit + HN cross-posts (coordinated 48h window)",
+          "Twitter/X announcement thread with demo GIF",
+          "Hacker News \"Show HN\" post"
+        ]
+      },
+      {
+        "week": "Week 2",
+        "pieces": [
+          "Dev.to tutorial: \"Building a multi-agent customer support system\"",
+          "YouTube: 10-min integration with CrewAI",
+          "Blog: \"MCP vs A2A vs Agent Messenger\" comparison"
+        ]
+      },
+      {
+        "week": "Week 3",
+        "pieces": [
+          "Guest post on LangChain blog (if approved)",
+          "Case study: Real-world agent coordination pattern",
+          "Tweet thread: \"7 ways Agent Messenger speeds up agentic workflows\""
+        ]
+      },
+      {
+        "week": "Week 4",
+        "pieces": [
+          "Hackathon pre-announcement (ETHGlobal London)",
+          "Infrastructure deep-dive (technical blog)",
+          "Community AMA on Discord"
+        ]
+      }
+    ],
+    "product_hunt_strategy": {
+      "readiness_checklist": [
+        "Waitlist of 100+ early adopters (collected via GitHub star CTA)",
+        "High-quality 30-sec demo GIF (animated, with sound off)",
+        "Maker profile with authentic story (why I built it, late nights, problem solved)",
+        "Clear CTA: \"Get early access\" or \"Star on GitHub\"",
+        "Engage 10+ relevant PH launches beforehand to build relationships"
+      ],
+      "launch_day_tactics": [
+        "Launch at 12:01 AM PST",
+        "Get 20\u201330 upvotes in first 2 hours (friends + early waitlist)",
+        "Submit to HN simultaneously",
+        "Email entire waitlist immediately",
+        "Reply to every comment within 15 minutes for first 24h"
+      ],
+      "kpi_targets": [
+        "Top 10 Product of the Day",
+        "300+ upvotes",
+        "200\u2013400 new GitHub stars"
+      ]
+    },
+    "growth_metrics": {
+      "leading_indicators": [
+        "GitHub stars/day velocity (baseline: 30\u201350)",
+        "Discord community growth (target: 500 members in 90 days)",
+        "Integration mentions (GitHub search for 'agent-messenger' keyword)",
+        "Tutorial views + engagement (YouTube, Dev.to)"
+      ],
+      "lagging_indicators": [
+        "Weekly active developers (WAD)",
+        "Production deployments (survey-based)",
+        "Community-driven contributions (PRs, issues, discussions)"
+      ]
+    },
+    "risks_and_mitigation": {
+      "protocol_fragmentation_risk": {
+        "description": "MCP + A2A become sufficient and market for separate chat layer disappears",
+        "mitigation": "Position as complement, not competitor; build bridges to both protocols"
+      },
+      "attention_risk": {
+        "description": "Developer attention sparse; project goes unnoticed",
+        "mitigation": "Multi-channel coordinated launch + pre-launch audience building (target 1K Twitter follows before launch)"
+      },
+      "talent_risk": {
+        "description": "Unable to scale community management + content production",
+        "mitigation": "Hire community manager at 500 stars; automate documentation with LLMs"
+      }
+    },
+    "fundwise_alignment": {
+      "agent_messenger_is": "Infrastructure enabling agent communication across DeFi/Social/DAO use cases",
+      "fundwise_value": "Enables Agent Wallet integration for zkCredit + DeFi scoring agents to coordinate",
+      "prize_targeting": [
+        "Network Economy track prize",
+        "FinTechers prize (if paired with credit-scoring agents)"
+      ],
+      "joint_collab_angle": "Agent Messenger + zkCredit = agents that negotiate credit terms autonomously"
+    }
+  }
+}
