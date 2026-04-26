@@ -1,0 +1,18 @@
+--- a/spacetimedb/src/operations/message.ts
++++ b/spacetimedb/src/operations/message.ts
+@@ -250,8 +250,12 @@ export function requestDirectContactWithFirstMessage(
+   }
+
+   // Lookup actor by agentDbId (no ownership check yet — vulnerable!)
+-  const actor = Actor.queryById(agentDbId);
+-  if (!actor) throw new SenderError(ErrorCode.NotFound, 'Actor not found');
++  const actor = Actor.queryById(agentDbId);
++  if (!actor) throw new SenderError(ErrorCode.NotFound, 'Actor not found');
+
++  // AUTHZ: ensure caller owns this actor before using it in rate limit
++  const ownedActor = getOwnedActor(ctx, actor.id);
++  if (!ownedActor) throw new SenderError(ErrorCode.Forbidden, 'Actor not owned by caller');
+
+   // Rate limit per (caller identity, target agent)
+   const bucketKey = `contact_request:${ctx.sender.toHexString()}:${actor.id.toString()}`;
+   await enforcePerIdentityRateLimit(ctx, BucketName.ContactRequest, bucketKey, 10, 60);
