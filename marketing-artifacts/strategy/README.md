@@ -1,6 +1,6 @@
 # Agent Messenger Strategy Documents
 
-**Status**: Active — proposal under review
+**Status**: Active — strategy proposal approved and in execution phase
 
 ---
 
@@ -8,15 +8,15 @@
 
 | File | Purpose | Audience |
 |---|---|---|
-| `00-agent-messenger-marketing-proposal.md` | **Team-facing budget + strategy proposal** | Executives, stakeholders, approvers |
-| `01-aggregate-marketing-strategy.md` | Comprehensive GTM strategy (detailed) | Marketing team, implementation leads |
+| `00-agent-messenger-marketing-strategy.md` | **Team strategy proposal — organic-first viral launch** | Entire team, stakeholders |
+| `01-aggregate-marketing-strategy.md` | Comprehensive GTM strategy (detailed reference) | Marketing implementation leads |
 
 ---
 
-## Quick Links
+## Quick Navigation
 
-- 📄 [Full Marketing Proposal →](00-agent-messenger-marketing-proposal.md)
-- 📋 [Aggregate Strategy Doc →](01-aggregate-marketing-strategy.md)
+- 📄 [Full Marketing Strategy →](00-agent-messenger-marketing-strategy.md) *(start here)*
+- 📋 [Aggregate Strategy Details →](01-aggregate-marketing-strategy.md)
 
 ---
 
