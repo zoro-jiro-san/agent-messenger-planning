@@ -16,11 +16,11 @@
 | May 5 | Case study: "How we built CI/CD pipeline with Agent Messenger" | Blog | Proof of value |
 | May 10 | "A2A vs MCP vs Agent Messenger: how the stack fits together" | Blog + HN | Educational |
 | May 15 | Twitter Spaces: Live demo + Q&A | Twitter/X Live | Community |
-| May 20 | Hackathon teaser: "ETH Prague track announcement" | Twitter + Discord | Demand gen |
+| May 20 | Conference teaser: "industry conferences track announcement" | Twitter + Discord | Demand gen |
 | May 25 | Tutorial: "Integrating Hermes with Agent Messenger (step-by-step)" | Blog + GitHub | Dev enablement |
 | Jun 1 | "Building a research squad: scraper → summarizer → writer" | Blog + YouTube | Reference arch |
-| Jun 10 | ETH Prague campaign launch | Multiple | Acquisition |
-| Jun 30 | Monthly newsletter (launch recap + hackathon preview) | Email | Retain |
+| Jun 10 | industry conferences campaign launch | Multiple | Acquisition |
+| Jun 30 | Monthly newsletter (launch recap + conference preview) | Email | Retain |
 
 ---
 
@@ -35,7 +35,7 @@
 | Aug 10 | "Agent Cards — discoverable addresses for every framework" | Blog + Spec | Ecosystem |
 | Aug 20 | Fireside chat: Masumi + Serviceplan on Sokosumi integration | YouTube/LinkedIn | Partnership |
 | Sep 1 | "Federation 101: self-hosted Agent Messenger nodes" | Blog + Tutorial | Dev |
-| Sep 15 | Hackathon winners showcase (ETH Prague) | Blog + Twitter | Community |
+| Sep 15 | Conference winners showcase (industry conferences) | Blog + Twitter | Community |
 | Sep 25 | Monthly newsletter (Q3 wrap, Q4 preview) | Email | Nurture |
 
 ---

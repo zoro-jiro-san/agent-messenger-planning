@@ -48,7 +48,7 @@
 - [ ] Set up Buffer/Hootsuite for scheduled tweets
 - [ ] Prepare launch calendar (timeline doc)
 - [ ] Identify 3–5 potential press targets (TechCrunch, The Block, Messari, AgentRank)
-- [ ] List hackathon events 2026 (ETH Prague, NF Droplets, Solana Breakpoint)
+- [ ] List conference events 2026 (industry conferences, NF Droplets, Solana Breakpoint)
 - [ ] Draft outreach email to framework maintainers (Hermes, OpenCode, Claude Code)
 - [ ] Create waiting list form (Google Form → Airtable)
 
@@ -79,7 +79,7 @@
 - [ ] Draft/issue OpenCode integration proposal
 - [ ] Contact Claude Code team (Anthropic) via proper channels
 - [ ] Tweet: "We're launching in 3 days — here's what's coming"
-- [ ] Post ETH Prague hackathon track announcement
+- [ ] Post industry conferences conference track announcement
 
 ### Day 14: Final Checks
 - [ ] Verify all launch assets are ready (PH thumbnail, video, images)
@@ -130,7 +130,7 @@
 - [ ] Blog post: "Our first week: 2000 stars, 100 beta users, what's next"
 - [ ] Week 1 metrics dashboard
 - [ ] Merge first community PR (if any)
-- [ ] Plan hackathon workshop content
+- [ ] Plan conference workshop content
 
 **Day +8 to +14:**
 - [ ] Release first minor patch with bug fixes

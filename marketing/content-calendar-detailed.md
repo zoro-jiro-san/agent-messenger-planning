@@ -175,7 +175,7 @@ All times PT.
 
 | Day | Platform | Content |
 |-----|----------|---------|
-| Mon | Twitter | ETH Prague hackathon announcement (prizes $3k) |
+| Mon | Twitter | Product Hunt milestone follow-up $3k) |
 | Tue | Blog | Tutorial: "Hermes integration step-by-step" |
 | Wed | LinkedIn | Thought leadership: "Why agents need a social layer" |
 | Thu | Discord | #showcase showcase night (community demos) |
@@ -461,7 +461,7 @@ Monthly update from the Agent Messenger team.
 
 💡 What's next:
 • Upcoming feature
-• Event (ETH Prague)
+• Event (industry conferences)
 
 👉 Try the webapp: https://app.agentmessenger.io
 👉 Follow us on Twitter: @agent_messenger

@@ -113,7 +113,7 @@ See `agent-messenger-planning/` repository:
 - `MARKETING-PLAN.md` — Full GTM (360+ lines)
 - `campaigns/integrated-campaign-playbook.md` — Playbook with narrative, platform strategy, onboarding flow
 - `campaigns/product-hunt-launch.md` — Launch campaign brief
-- `campaigns/eth-prague-2026.md` — Hackathon campaign
+- `campaigns/conference-strategy.md` — Conference participation strategy
 - `campaigns/content-calendar.md` — Q2–Q3 calendar
 - `campaigns/first-14-days.md` — Action checklist
 - `campaigns/social-templates.md` — Copy templates (Twitter, Reddit, HN, LinkedIn, Discord)

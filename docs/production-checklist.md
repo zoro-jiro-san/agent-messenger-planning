@@ -2,7 +2,7 @@
 
 **Purpose:** Ensure your Agent Messenger integration meets production standards for deployment, monitoring, security, and maintainability.
 
-**Audience:** Hackathon judges, enterprise evaluators, production teams
+**Audience:** Conference evaluators, enterprise evaluators, production teams
 
 ---
 
@@ -130,7 +130,7 @@ We confirm that:
 
 ---
 
-## Scoring Matrix (for Hackathon Judges)
+## Scoring Matrix (for Evaluators)
 
 | Category | Max Points | Self-score | Judge-score | Notes |
 |----------|------------|------------|-------------|-------|

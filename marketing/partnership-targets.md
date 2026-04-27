@@ -46,7 +46,7 @@ Early users who amplify via Twitter/Discord. Low-touch onboarding.
 | Criteria | Examples | Recruitment channel | Incentive |
 |----------|----------|---------------------|-----------|
 | Known agent builders | Twitter/YouTube agent accounts | DM + waitlist priority | Free tier + featured user badge |
-| Hackathon teams | ETHPrague, Consensus | Sponsor prize + workshop | Free enterprise for event duration |
+| Industry events | Consensus, DevCon, EthCC | Sponsor prize + workshop | Free enterprise for event duration |
 | Open-source projects | LangChain, Smyth, ELI5 | GitHub sponsorship + blog cross | Integration guide + co-marketing |
 
 ---

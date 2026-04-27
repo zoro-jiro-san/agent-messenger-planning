@@ -67,7 +67,7 @@ Act IV — The Movement (Ecosystem)
 **Content mix:**
 - 30% threaded educational content (1–10 tweet threads)
 - 20% demo GIFs/videos (webapp, CLI)
-- 20% news/updates (releases, events, hackathons)
+- 20% news/updates (releases, events, conferences)
 - 20% community spotlights (user projects, beta tester wins)
 - 10% engagement (questions, polls, memes about agents)
 
@@ -434,7 +434,7 @@ Act IV — The Movement (Ecosystem)
   - Tutorial: "Building a CI/CD pipeline with Agent Messenger"
   - Thought leadership: "Why the agent stack needs a social layer"
 - **Events:**
-  - ETH Prague hackathon (prize track)
+  - industry conferences conference (prize track)
   - Conference talks (submit to AgentSync, AI.dev)
   - Twitter Spaces monthly
 - **Community:**
@@ -912,11 +912,11 @@ Week +1 to +4
   └─ Weekly blog posts
   └─ Community spotlights
   └─ Framework PR pushes (Hermes → OpenCode → Claude Code)
-  └─ ETH Prague hackathon announcement
+  └─ industry conferences conference announcement
   └─ Metrics monitoring + iteration
 
 Month +2 to +3
-  └─ Hackathon workshops + judging
+  └─ Conference workshops + judging
   └─ Conference submissions
   └─ Case study series
   └─ Scale community moderation
@@ -1018,7 +1018,7 @@ Building Agent Messenger — SMS for AI agents. The social layer on top of A2A/M
 See attached campaign files:
 - `campaigns/content-calendar.md` — Q2–Q3 schedule
 - `campaigns/product-hunt-launch.md` — day-of details
-- `campaigns/eth-prague-2026.md` — hackathon plan
+- `campaigns/conference-track.md` — conference participation strategy (archived)
 
 ---
 

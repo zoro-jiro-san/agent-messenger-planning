@@ -77,15 +77,15 @@ Each decision entry:
 
 ---
 
-### DECISION-005: Campaign Budget — Lean + Hackathon-Heavy
+### DECISION-005: Go-to-Market Strategy — Organic-First
 
 **Date:** 2026-04-26  
-**Context:** Marketing budget options: (A) Paid ads + agency, (B) Pure organic content + community, (C) Hackathon sponsorship-heavy, (D) Mix: minimal cash + events.
+**Context:** Marketing approach: Pure organic content + community, minimal paid amplification.
 
-**Decision:** Focus budget on hackathons ($10–15k prize pools), demo video ($3k), minimal design ($2k). No paid ads. No agency retainer unless needed later.  
-**Rationale:** Agent space is early — developer community still forming. Hackathons drive hands-on usage and project creation. Content + community yields higher ROI than ads for infra products.
+**Decision:** Focus budget on content production (demo video, design) and security audit; no event sponsorships initially. No paid ads. No agency retainer unless needed later.  
+**Rationale:** Agent space is early — developer community still forming. Content marketing + organic community growth yields sustainable momentum. Paid ads low-ROI for technical products.
 
-**Consequences:** ✅ Lower cash burn; ✅ High-quality projects from hackathons; ❌ Slower awareness growth; relies on organic virality.
+**Consequences:** ✅ Lower cash burn; ✅ Sustainable community growth; ⚠️ Slower top-of-funnel without event buzz; relies on organic virality.
 
 **Revisit:** at 6 months if star growth < 1k/month, consider small paid budget (Twitter promoted posts, Reddit ads to dev subreddits).
 
@@ -119,19 +119,18 @@ Each decision entry:
 
 ---
 
-### DECISION-008: Launch Timing — When Webapp usable (not perfect)
+### DECISION-008: Adopt Production-Readiness as Primary Evaluation Metric
 
-**Date:** 2026-04-26  
-**Context:** Wait for full Phase 1 roadmap (8 weeks of polish) OR launch when core flows work (inbox, threads, status) but some polish missing?
+**Date:** 2026-04-27
+**Context:** Industry conferences and demo days prioritize "real-world impact" and "sustainability." Original demo-style presentations attract toy projects, not production-ready integrations.
 
-**Decision:** Launch when `/inboxes` and `/approvals` are real (not skeleton), status feature shipped, mobile CSS decent — but not pixel-perfect.  
-**Rationale:** Perfect is the enemy of good. Need real user feedback earlier. Core value can be demonstrated without full polish.
+**Decision:** Redesign conference demo criteria to prioritize production-readiness (30% weight), real-world impact (30%), and privacy/ethics (20%). Encourage public deployment for eligible projects. No cash prizes — recognition + showcase only.
 
-**Consequences:** Some UX warts visible at launch; but faster feedback loop; stronger "we're iterating with you" narrative.
+**Rationale:** Aligns with industry event values around responsible, deployable technology. Attracts serious teams building production agent infrastructure. Generates case studies with deployment metrics. Cash prizes attract spec projects; prestige + visibility attract production teams.
 
-**Revisit:** Before public launch gate checklist must be met (see MARKETING-PLAN.md).
+**Consequences:** ✅ Higher-quality submissions; ✅ Better post-event adoption; ⚠️ Smaller initial participant pool without financial incentive; compensated by organic visibility.
 
----
+**Revisit:** After first conference season; assess project quality and adjust rubric for future events.
 
 ### DECISION-009: Metrics Hierarchy — Growth → Engagement → Ecosystem
 
@@ -213,20 +212,18 @@ Add new decisions chronologically at TOP of "Active Decisions" section. Move to 
 
 ---
 
-### DECISION-008: Adopt Production-Readiness as Primary Hackathon Metric
+### DECISION-008: Adopt Production-Readiness as Primary Evaluation Metric
 
 **Date:** 2026-04-27
-**Context:** ETH Prague 2026 emphasizes "real-world impact" and "sustainability." Original prize structure ($3K for demos) attracts toy projects, not production integrations.
+**Context:** Industry conferences and demo days prioritize "real-world impact" and "sustainability." Original demo-style presentations attract toy projects, not production-ready integrations.
 
-**Decision:** Redesign ETH Prague track to prioritize production-readiness (30% weight), real-world impact (30%), and privacy/ethics (20%). Require public deployment (not just GitHub) for eligibility. Increase prize pool to $5K.
+**Decision:** Redesign conference demo criteria to prioritize production-readiness (30% weight), real-world impact (30%), and privacy/ethics (20%). Encourage public deployment for eligible projects. No cash prizes — recognition + showcase only.
 
-**Rationale:** Aligns with ETHPrague "Future Society" values. Attracts serious teams building deployable agent infrastructure. Generates production-ready integrations, not demos. Creates case studies with deployment metrics.
+**Rationale:** Aligns with industry event values around responsible, deployable technology. Attracts serious teams building production agent infrastructure. Generates case studies with deployment metrics. Cash prizes attract spec projects; prestige + visibility attract production teams.
 
-**Consequences:** ✅ Higher-quality submissions; ✅ Better post-hackathon adoption; ❌ Higher bar may reduce participation (offset by larger prize pool).
+**Consequences:** ✅ Higher-quality submissions; ✅ Better post-event adoption; ⚠️ Smaller initial participant pool without financial incentive; compensated by organic visibility.
 
-**Revisit:** After ETH Prague 2026; assess submission quality and adjust rubric for future events.
-
----
+**Revisit:** After first conference season; assess project quality and adjust rubric for future events.
 
 ### DECISION-009: Elevate Sokosumi to Tier 1a Partnership Target
 

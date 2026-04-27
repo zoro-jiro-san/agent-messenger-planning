@@ -77,8 +77,8 @@ This plan covers: target segments, positioning, campaign strategy, launch sequen
 **Who:** x402/MPP early adopters, on-chain agent builders (Masumi Network ecosystem)
 **Pain:** Agents can pay each other but can't *negotiate* or *coordinate* around payments
 **Why they care:** Agent Messenger handles the conversation before/after the payment
-**Tactics:** Joint content with Masumi Network, hackathon prizes, demo "agent-to-agent deal flow"
-**Success metric:** Integration with Masumi SDK + joint demo at ETH Prague
+**Tactics:** Joint content with Masumi Network, Conference partnerships, demo "agent-to-agent deal flow"
+**Success metric:** Integration with Masumi SDK + framework integrations
 
 ---
 
@@ -252,7 +252,7 @@ Enterprise buyers cannot deploy agent infrastructure without documented security
 | Public sector | FedRAMP, ISO 27001 | "Open-source transparency; self-hostable" | Self-host deployment guide, security configuration checklist |
 
 **Action items:**
-1. **May 2026:** Commission third-party penetration test (budget $15K from Section 10)
+1. **May 2026:** Commission third-party penetration test (Q3 2026)
 2. **June 2026:** Draft RoPA template + DPIA summary for GitHub (transparency)
 3. **July 2026:** Publish "Security & Compliance" page on docs site with SOC 2 roadmap
 4. **August 2026:** Release self-hosted node deployment guide with security hardening checklist
@@ -419,7 +419,7 @@ Start saying: "A2A delegates work. MCP provides tools. Agent Messenger connects 
 - **Docs site launch** (GitHub Pages) — protocol spec, SDK guides, tutorials
 - **"5-minute integration"** — PR to Hermes, sample OpenCode command
 - **Skill submission** — publish to `skills.sh`, promote to framework maintainers
-- **Hackathon presence** — ETH Prague (primary), NF Droplets, Solana Breakpoint
+- **Conference presence** — Solana Breakpoint, EthCC, AgentSync (booths + talks)
 - **Technical blog series:**
   - "Why agents need an inbox" — problem/solution
   - "How Agent Messenger layers on A2A/MCP/X402" — stack analogy
@@ -476,7 +476,7 @@ Start saying: "A2A delegates work. MCP provides tools. Agent Messenger connects 
 - **PR outreach:** TechCrunch, The Block, Messari, AgentRank, a16z podcasts
 - **Launch partners showcase:** 3–5 teams using it in prod, with testimonials
 - **Live demo stream** — build an agent team on stream (Twitch/YouTube)
-- **Hackathon prize pool** — $10k across ETH Prague + NF Droplets + online track
+- **Content amplification** — co-marketing with framework teams, guest blogs, podcast tours
 
 **Success metrics:**
 - 1000 GitHub stars
@@ -551,13 +551,6 @@ Start saying: "A2A delegates work. MCP provides tools. Agent Messenger connects 
 - "Adopt an issue" tag for sustained contributors
 - Release notes in `CHANGELOG.md` with credits
 
-### Hackathons (2026)
-| Event | Date | Role |
-|-------|------|------|
-| ETH Prague | June 2026 | Sponsor + prize track ($3k) — "best agent collaboration" |
-| NF Droplets | April 2026 | Workshop + demo booth |
-| Solana Breakpoint | September 2026 | Workshop — Solana agent integration |
-| Agent Hackathon (online) | TBD | Remote track, $2k prizes |
 
 ### Ecosystem Integrations (in progress / planned)
 - **Hermes Agent** — built-in skill (target first)
@@ -605,7 +598,7 @@ Week 0 (launch week)
 Week +1 onward
   ├─ Monitor metrics, engage community
   ├─ Collect case studies from early users
-  ├─ Plan hackathon tracks (ETH Prague)
+  ├─ Plan conference participation strategy (Q3)
   └─ Begin Phase 4 planning (group threads, federation)
 ```
 
@@ -645,27 +638,10 @@ Week +1 onward
 | A2A/MCP giants copy feature | High | Medium | Ship first, build community moat, integrate deeply with existing frameworks |
 | Messaging spam/unwanted agent contact | High | Medium | Built-in first-contact approval + allowlists from day one |
 | Security audit findings E2E encryption | Medium | High | Third-party audit before public beta, bug bounty program |
-| Low initial adoption | Medium | Medium | Hackathon incentives, framework bundling, content blitz |
+| Low initial adoption | Medium | Medium | Framework integrations, content velocity, community rewards |
 
 ---
 
-## 10. Budget & Resources
-
-### Cash Budget (estimated)
-- Hackathon prizes: $15k (ETH Prague + NF Droplets + online)
-- Content production (video, design): $5k
-- PR/agency retainer (first 3 months): $10k
-- Security audit (pre-beta): $20k
-- **Total (first 6 months): ~$50k**
-
-### Non-cash resources\n- **Team** (Masumi + collaborators): 0.5–1 FTE each (product, eng, marketing)\n- **Community volunteers** — beta testers, content creators\n- **Framework maintainers** — PR reviews, integration support\n\n---\n\n## 11. Strategic Improvements (Based on Latest Market Intelligence)\n\n**Source:** 30-day market scan (April 2026) — A2A/MCP/x402 updates, Sokosumi growth, enterprise trends\n\n### Improvement 1: Position as \"Agent Marketplace Infrastructure\"\n\n**Observation:** Sokosumi hits 500+ enterprises; agent marketplaces are now mainstream. These platforms need messaging to complete the agent experience.\n\n**Action:** Target agent marketplace platforms (Sokosumi, future entrants) with marketplace-specific SDK, co-marketing, and revenue-share model. Position Agent Messenger as essential middleware for any agent platform.\n\n**Owner:** Sarthi + biz dev team\n**Timeline:** Q2 2026 (Sokosumi pilot first)\n\n---\n\n### Improvement 2: \"Human-in-the-Loop as a Competitive Moat\"\n\n**Observation:** A2A, MCP, x402 all ignore human oversight; Deloitte/PwC 2026 reports show enterprises demanding human-in-the-loop AI.\n\n**Action:** Double down on human approvals as first-class primitive. Create enterprise sales deck focused on compliance (GDPR, SOC2, audit trails). Target regulated industries (finance, healthcare, EU agencies).\n\n**Owner:** Marketing + security lead\n**Timeline:** Immediate — update positioning docs\n\n---\n\n### Improvement 3: Episode-Based Content Series\n\n**Observation:** Developer confusion about layer separation (A2A vs MCP vs messaging). Market education needed.\n\n**Action:** Launch \"Agent Stack 101\" video series (5 episodes, 5–10 min each):\n1. The missing layer: Why agents need chat\n2. A2A vs Agent Messenger: Task vs Conversation\n3. MCP vs Agent Messenger: Tools vs Talk\n4. x402 vs Agent Messenger: Pay vs Negotiate\n5. Full-stack agent system demo (all protocols working together)\n\n**Owner:** Content + community team\n**Timeline:** May 2026, biweekly releases\n\n---\n\n### Improvement 4: Protocol Interoperability Alliances\n\n**Observation:** Protocols are converging (A2A+MCP under Agentic AI Foundation) but still miss messaging.\n\n**Action:** Proactive alliance-building:\n- Joint blog post with A2A maintainers: \"Use A2A for tasks, Agent Messenger for coordination\"\n- MCP interop demo: \"Agent uses MCP to fetch data, then chats with teammates\"\n- x402 joint narrative: \"Negotiate via chat, pay via x402\"\n\n**Owner:** Dev rel + partnerships\n**Timeline:** Q2–Q3 2026\n\n---\n\n### Improvement 5: EU-First GTM Motion\n\n**Observation:** Sokosumi's EU success + GDPR/AI Act compliance creates beachhead; EU regulations driving marketplace demand.\n\n**Action:** Position Agent Messenger as \"EU-compliant agent messaging from day one\":\n- GDPR-by-design page\n- EU AI Act alignment statement\n- German/Nordic enterprise outreach\n- Co-market with Sokosumi at EU events (ETH Prague, etc.)\n\n**Owner:** Marketing + legal\n**Timeline:** Immediate — create compliance page\n\n---\n\n## 12. Open Questions (for team)\n
-1. **Brand separation:** Should Agent Messenger live as its own branded entity (`agentmessenger.io`) or under Masumi Network with sub-branding?
-2. **Pricing:** Messaging is free forever? Or freemium (basic free, advanced features enterprise)?
-3. **Monetization eventual:** x402 for premium features? Or keep messaging layer pure open-source?
-4. **Federation priority:** Self-hosted nodes come in Phase 4 — but enterprise demand might accelerate this.
-5. **Skill vs SDK:** Should we push `skills.sh` integration (Hermes-style) or publish standalone SDKs for Python/TS?
-
----
 
 ## Appendix: Campaign Assets Checklist
 
@@ -679,7 +655,7 @@ Week +1 onward
 - [x] Discord server invite + moderation guides
 - [x] GitHub PR templates + issue templates
 - [x] Metrics dashboard (simple spreadsheet)
-- [ ] Hackathon sponsorship agreements (ETH Prague, NF Droplets)
+- [ ] Conference participation planning (Q3 events)
 - [ ] Security audit vendor shortlist + proposal
 - [ ] Beta tester application form (Google Form → waitlist)
 - [ ] Launch calendar with timezone-adjusted times

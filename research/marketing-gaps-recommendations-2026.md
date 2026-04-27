@@ -167,7 +167,7 @@ Enterprise buyers cannot deploy agent infrastructure without documented security
 ## Gap 3: Hackathon Strategy Over-emphasizes Prize Money, Under-emphasizes Production-Readiness
 
 ### Current State
-Current ETH Prague campaign brief (`campaigns/eth-prague-2026.md`) focuses on **prize pool** ($3K) and **workshop attendance**. It does not structure hackathons around **production deployment** or **real user validation**.
+Current ETH Prague campaign brief (`campaigns/conference-track.md`) focuses on **prize pool** ($3K) and **workshop attendance**. It does not structure hackathons around **production deployment** or **real user validation**.
 
 **ETH Prague 2026 trends from scan:**
 - Theme: "Building Ethereum's Solarpunk Future" — emphasizes **sustainability**, **privacy-by-design**, **community impact**
@@ -182,7 +182,7 @@ Current ETH Prague campaign brief (`campaigns/eth-prague-2026.md`) focuses on **
 
 ### Recommended Additions
 
-#### File: `campaigns/eth-prague-2026.md` → Completely Rewrite as Production-Ready Track
+#### File: `campaigns/conference-track.md` → Completely Rewrite as Production-Ready Track
 
 **Replace existing brief with:**
 
@@ -459,7 +459,7 @@ Marketing plan assumes **developer awareness** will follow naturally from techni
 |----------|--------|-------------|-------|----------|
 | **P0** | Add Security section contrasting with MCP vulnerability | `MARKETING-PLAN.md` (new 3.5) | Marketing/Eng | May 5 |
 | **P0** | Update PRESS-KIT FAQ with security comparison | `press/PRESS-KIT.md` | Marketing | May 5 |
-| **P0** | Create ETH Prague production-ready track brief (replace) | `campaigns/eth-prague-2026.md` | Campaign lead | May 10 |
+| **P0** | Create ETH Prague production-ready track brief (replace) | `campaigns/conference-track.md` | Campaign lead | May 10 |
 | **P1** | Add Enterprise Compliance roadmap section | `MARKETING-PLAN.md` (new 3.6) | Marketing/Legal | May 12 |
 | **P1** | Add Framework Maintainer Partnership phase | `MARKETING-PLAN.md` (new Phase 2.5) | Eng/Marketing | May 15 |
 | **P1** | Add Category Ownership section vs spec-stage competitors | `MARKETING-PLAN.md` (new 3.7) | Founder/Marketing | May 15 |

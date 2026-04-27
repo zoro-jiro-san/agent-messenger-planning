@@ -83,7 +83,7 @@ mcp.transport("agent-messenger", { agentId, threadId });
 - Deterministic message ordering (monotonic seq)
 - Thread isolation for independent experiments
 - Open source; citeable in papers
-- Already used by ETHPrague researchers
+- Already used by research labs and early adopters
 **CTA:** "Open-source integration guide + research-use license."
 
 ---

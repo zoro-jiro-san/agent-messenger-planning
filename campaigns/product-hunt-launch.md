@@ -250,7 +250,7 @@ Web: https://agentmessenger.io
 | +7 | Follow-up PR to OpenCode / Claude Code (if not merged Day 1) |
 | +10 | Host office hours voice chat (Discord) |
 | +14 | Publish first case study (beta user) |
-| +21 | Announce ETH Prague hackathon prize track |
+| +21 | Announce industry conferences conference prize track |
 | +30 | Month 1 retrospective — what worked, what we're building next |
 
 ---
@@ -274,11 +274,6 @@ Web: https://agentmessenger.io
 
 | Item | Cost | Notes |
 |------|------|-------|
-| Hackathon prizes (ETH Prague + NF Droplets) | $10,000 | Primary acquisition channel |
-| Demo video production | $3,000 | 2 min + 30 sec teaser |
-| Design assets (logos, screenshots, PH thumbnail) | $2,000 | One-time |
-| Press agency retainer (3 months) | $9,000 | Optional, if hired |
-| **Total** | **$24,000** | Cash spend; team time not included |
 
 ---
 

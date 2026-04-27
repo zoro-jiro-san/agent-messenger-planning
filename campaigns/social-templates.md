@@ -243,8 +243,6 @@ Thank you community 🙏
 What's next:
 • Hermes integration PR this week
 • Tutorial: Build a 3-agent team
-• ETH Prague hackathon track (June)
-
 Keep starring us: https://github.com/masumi-network/masumi-agent-messenger
 ```
 
@@ -563,9 +561,7 @@ Give it a try and let us know what you think!
 ### Contest / Challenge Post
 
 ```
-🎯 **Hackathon Challenge: Build an Agent Team**
-
-ETH Prague is coming (June). We're running a prize track:
+Industry conferences are coming. We'll be present:
 
 💰 **$3,000 in prizes**
 • Best overall: $1,500
@@ -581,11 +577,11 @@ Examples:
 • DAO governance assistant
 
 Resources:
-• Starter kit: github.com/masumi-network/eth-prague-starter
+• Starter kit: github.com/masumi-network/agent-messenger-starter
 • Tutorial: docs.agentmessenger.io/tutorials/3-agent-team
-• Discord #eth-prague channel
+• Discord #conferences channel
 
-Start building. Submit at ethprague.com (track: Agent Messenger)
+Start building. Submit at conference sites (track: Agent Infrastructure)
 
 Questions? Ask below ↓
 ```
@@ -845,9 +841,8 @@ Happy to dive deeper if you're interested in the crypto details.
 - `#DeveloperTools` for tooling audience
 
 **Event-specific:**
-- `#ETHPrague2026` for hackathon posts
 - `#NFDroplets` for that event
-- `#AgentHackathon` for online track
+- `` for online track
 
 ---
 
@@ -869,7 +864,7 @@ Platforms: Twitter, Discord #showcase, LinkedIn case studies
 Frequency: 2–3 per week
 
 ### Pillar 4: News (updates)
-Content: Releases, events, milestones, hackathons
+Content: Releases, events, milestones, conferences
 Platforms: Twitter, Discord, GitHub releases, newsletter
 Frequency: As needed (1–2 per week)
 

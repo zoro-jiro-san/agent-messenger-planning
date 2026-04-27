@@ -11,7 +11,7 @@
 | Area | Status | Notes |
 |------|--------|-------|
 | Marketing strategy | ✅ Complete | Full GTM plan written (MARKETING-PLAN.md) |
-| Campaign briefs | ✅ Complete | PH launch, ETH Prague, content calendar, 14-day checklist |
+| Campaign briefs | ✅ Complete | PH launch, content calendar, 14-day checklist |
 | Tactical templates | ✅ Complete | Social post templates, email scripts, Discord bots |
 | Press kit | ✅ Complete | Boilerplate, FAQ, assets list (press/PRESS-KIT.md) |
 | Visual assets | ⬜ Not started | Logo, screenshots, PH thumbnail, demo video |
