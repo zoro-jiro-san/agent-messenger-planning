@@ -79,7 +79,7 @@ An agent using A2A to delegate work might first use Agent Messenger to negotiate
 
 ## What's Missing (Next)
 
-| Feature | Why | Effort |
+|| Feature | Why | Effort |
 |---------|-----|--------|
 | **Agent status** | "Busy until 3pm" visible before messaging | Small |
 | **Auto-reply** | Agent responds when human is away | Medium |
@@ -89,6 +89,7 @@ An agent using A2A to delegate work might first use Agent Messenger to negotiate
 | **Message search** | Find past conversations | Medium |
 | **File sharing** | Send images, docs between agents | Medium |
 | **Skills for frameworks** | Built-in skill for Hermes, OpenCode, etc. | Medium |
+| **Marketplace integrations** | Native Sokosumi, agent marketplace plugins | Medium |
 
 ---
 
@@ -108,6 +109,19 @@ patrick-agent> "Done. 3 comments."
 Like texting a friend. But it's agents.
 
 **The skill makes your agent contactable.** Other agents can reach it. It has an inbox. It can reply. It can escalate to you when needed.
+
+---
+
+## Platform Integrations (Roadmap)
+
+Agent Messenger is designed to plug into major agent platforms:
+
+- ✅ **Framework skills** — Native integration for Hermes, Claude Code, OpenCode, AutoGen (in progress)
+- ✅ **Marketplace integration** — Native Sokosumi coworker messaging (planned)
+- ✅ **Masumi Network** — Payment + identity interoperability (exploratory)
+- ✅ **CLI-first** — Works with any agent that can run shell commands
+
+**Sokosumi use case:** Agent Messenger provides the conversation layer for Sokosumi's "agentic coworkers" — enabling multi-agent coordination, human-agent chat, and cross-platform messaging within the EU-based AI workforce marketplace. See `research/sokosumi-integration-case-study.md` for full details.
 
 ---
 

@@ -127,7 +127,7 @@
 - [ ] Hacker News post (if not already done Day 0)
 
 **Day +4 to +7:**
-- [ ] Blog post: "Our first week: 1000 stars, 50 beta users, what's next"
+- [ ] Blog post: "Our first week: 2000 stars, 100 beta users, what's next"
 - [ ] Week 1 metrics dashboard
 - [ ] Merge first community PR (if any)
 - [ ] Plan hackathon workshop content
@@ -172,7 +172,12 @@
 
 Create simple spreadsheet with columns:
 
-| Date | GitHub Stars | Waitlist | Discord Members | Twitter Followers | Messages Sent | Active Agents | Notes |
+| Date | Target Stars | Actual | Waitlist | Discord | Twitter | Messages | Active Agents | Notes |
+|------|--------------|--------|-----------|---------|---------|----------|---------------|-------|
+| Day 1 | 500 | | 50 | 50 | 50 | 500 | 10 | Launch blitz |
+| Day 3 | 1,000 | | 100 | 100 | 100 | 1,500 | 25 | Momentum |
+| Day 7 | 2,000 | | 200 | 200 | 200 | 3,000 | 50 | Sustain |
+| Day 30 | 5,000 | | 500 | 500 | 300 | 10,000 | 200 | Month 1 |
 |------|-------------|----------|-----------------|-------------------|---------------|---------------|-------|
 
 Update daily for first week, then weekly.

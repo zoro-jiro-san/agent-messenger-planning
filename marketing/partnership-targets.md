@@ -12,10 +12,11 @@ High-impact names that validate the category. Outreach: founder/founder-level.
 
 | Org | Why They Fit | Contact Strategy | Lead | Status |
 |-----|--------------|------------------|------|--------|
-| **Manus AI** | Direct competitor narrative; collaboration shows maturity | Warm intro via mutual investor (a16z) | Sarthi | — |
-| **Claude Code / Anthropic** | Dev-tool synergy; their users need messaging | Partner program + integration PR | — | — |
-| **Dark AI** | DEKA partner; shared infra (SpacetimeDB) credibility | Joint webinar + cross-listing | — | — |
-| **a16z Crypto** | Industry validation; portfolio network effects | Investor intro + use-case deck | — | — |
+|| **Manus AI** | Direct competitor narrative; collaboration shows maturity | Warm intro via mutual investor (a16z) | Sarthi | — ||
+|| **Sokosumi** | Agent marketplace; messaging layer for coworker workflows | Direct intro via NMKR/Serviceplan partners | Sarthi | — ||
+|| **Claude Code / Anthropic** | Dev-tool synergy; their users need messaging | Partner program + integration PR | — | — ||
+|| **Dark AI** | DEKA partner; shared infra (SpacetimeDB) credibility | Joint webinar + cross-listing | — | — ||
+|| **a16z Crypto** | Industry validation; portfolio network effects | Investor intro + use-case deck | — | — ||
 
 *Target: sign 1–2 Tier 1 before launch.*
 
@@ -27,12 +28,12 @@ Real-world use cases, produce testimonials and blog content.
 
 | Org | Use Case | Contact Strategy | Lead | Status |
 |-----|-----------|------------------|------|--------|
-| **Sigma Prime** | Agent testing framework + reporting | Integration PR + sponsored blog | — | — |
-| **aakash2k (Siddharth)** | DeFi trading bot operator | Direct DM (Twitter) + free tier | — | — |
-| **Paradigm Research** | Research agent coordination | Co-author whitepaper on A2A | — | — |
-| **Serviceplan (Germany)** | Enterprise agency workflow | EU pilot + GDPR case study | — | — |
-| **BVG (Berlin)** | Smart city agent mesh | EU grant + pilot + press | — | — |
-| **Bank of New Zealand** | Internal Ops automation | Enterprise security review + pilot | — | — |
+|| **Sigma Prime** | Agent testing framework + reporting | Integration PR + sponsored blog | — | — ||
+|| **aakash2k (Siddharth)** | DeFi trading bot operator | Direct DM (Twitter) + free tier | — | — ||
+|| **Paradigm Research** | Research agent coordination | Co-author whitepaper on agent comms | — | — ||
+|| **Serviceplan (Germany)** | Enterprise agency workflow + Sokosumi integration | EU pilot + GDPR case study | — | — ||
+|| **BVG (Berlin)** | Smart city agent mesh | EU grant + pilot + press | — | — ||
+|| **Bank of New Zealand** | Internal Ops automation | Enterprise security review + pilot | — | — ||
 
 *Target: convert 3–4 to signed pilots by W2 post-launch.*
 
@@ -89,11 +90,12 @@ Early users who amplify via Twitter/Discord. Low-touch onboarding.
 
 ## Activation Timeline
 
-- **T-4 weeks:** Contact Tier 1 (Manus, Claude Code, Dark AI)
-- **T-2 weeks:** Contact Tier 2 (Sigma Prime, aakash2k, Paradigm)
+- **T-4 weeks:** Contact Tier 1 (Manus, Sokosumi, Claude Code, Dark AI)
+- **T-3 weeks:** Sokosumi integration demo & pilot discussion
+- **T-2 weeks:** Contact Tier 2 (Sigma Prime, aakash2k, Paradigm, Serviceplan)
 - **Launch week:** Public waitlist + Tier 3 flood
 - **T+2 weeks:** Review pilot responses, send agreements
-- **T+4 weeks:** First pilot go-live announcements
+- **T+4 weeks:** First pilot go-live announcements (including Sokosumi case study)
 
 ---
 

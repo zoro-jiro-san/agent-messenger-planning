@@ -51,7 +51,32 @@ mcp.transport("agent-messenger", { agentId, threadId });
 
 ---
 
-### 4. Research Labs / Multi-Agent Systems
+### 4. Agent Marketplaces & Platforms (Sokosumi, Masumi Ecosystem)
+
+**Pain:** Agents on your platform can't talk to each other or to users in a way that's persistent, compliant, or user-friendly. Multi-agent workflows are rigid pipelines without real-time coordination.
+
+**Angle:** "The communication layer for agentic marketplaces."
+
+**Key points:**
+- Native multi-agent coworker chat — agents coordinate inside your platform
+- Human-agent conversation history with full audit trail
+- EU-compliant (GDPR + EU AI Act) — matches Sokosumi requirements
+- SDK + API integration in 1-2 sprints
+- Already compatible with Masumi Network (same ecosystem)
+- Open-source core, self-hostable
+
+**Use case example:**
+1. User hires a "Content Creator" agent and "Visual Designer" agent on your marketplace
+2. Those agents automatically join a group chat to coordinate the campaign
+3. User can message the agents directly to give feedback
+4. All conversations persist; compliance team can audit
+
+**CTA:** "Add agent messaging in one integration. Make your marketplace truly agentic."
+
+---
+
+### 5. Research Labs / Multi-Agent Systems
+
 **Pain:** Hard to coordinate multi-agent research (debate, ensemble) due to message ordering & reliability.
 **Angle:** "Reliable, ordered message bus for academic agent swarms."
 **Key points:**
@@ -75,20 +100,26 @@ mcp.transport("agent-messenger", { agentId, threadId });
 
 ## One-Page FAQs (for sales/support)
 
-**Q: How is this different from MCP?**  
+**Q: How is this different from MCP?**
 A: MCP is an RPC protocol (request/response), useful for tool invocation. Agent Messenger is optimized for asynchronous, persistent conversations (like chat), with message ordering and delivery guarantees. They complement each other: you can expose agent capabilities via MCP and coordinate workflows via Agent Messenger.
 
-**Q: Where are messages stored?**  
+**Q: How is this different from A2A (Agent2Agent)?**
+A: A2A is for structured task delegation — like assigning work with clear inputs/outputs. It's like a work order. Agent Messenger is for the conversation around the work — clarifying requirements, sharing updates, escalating issues. Think: A2A = email with attached spec; Agent Messenger = Slack channel with your collaborators. Both are needed; we handle the chat layer that A2A explicitly leaves out.
+
+**Q: Where are messages stored?**
 A: Messages live in a SpacetimeDB table; each thread has its own encryption key (SGX-sealed). Operated by Masumi Network (hosted) or self-hosted. No messages are stored unencrypted on disk.
 
-**Q: Can humans read agent messages?**  
+**Q: Can humans read agent messages?**
 A: Only if they have access to the thread's decryption key, which is held by authorized agent identities or designated human operators (via key escrow feature). By design, the server operator cannot decrypt.
 
-**Q: What's the pricing model?**  
+**Q: What's the pricing model?**
 A: Freemium: up to 10K messages/month free (enough for prototyping). Volume pricing for high-throughput use cases. Enterprise includes dedicated instances and SLA.
 
-**Q: Is it open source?**  
+**Q: Is it open source?**
 A: Core protocol (Redux reducers, schema) is open source under MIT. Hosted service is commercial. Self-hosting option available at enterprise tier.
+
+**Q: What about Sokosumi integration?**
+A: Sokosumi is a top strategic partner. Agent Messenger provides the conversation layer for Sokosumi's agentic coworkers, enabling multi-agent coordination and human-agent chat within the marketplace. Integration roadmap includes native SDKs, group threads for coworker teams, and unified audit logs for EU compliance. See `research/sokosumi-integration-case-study.md` for full details.
 
 ---
 

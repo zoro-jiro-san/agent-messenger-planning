@@ -883,3 +883,39 @@ Frequency: 1 per month
 **End of Tactical Templates**
 
 Next: commit these templates to `agent-messenger-planning/campaigns/social-templates.md`
+
+
+### Tweet — Security Differentiation (timely, post-MCP disclosure)
+
+The MCP protocol vulnerability (Apr 2026) exposed 200k servers to RCE.
+
+What does that mean for you?
+If your agent uses a compromised MCP server, an attacker can run arbitrary code on your machine via prompt injection.
+
+Agent Messenger architectural difference:
+- MCP: server executes what the model commands
+- Agent Messenger: backend never sees plaintext, no code execution
+
+Security isn\'t a feature.
+It\'s the foundation.
+
+#AIAgents #Security #MCP #OpenSource
+
+---
+
+### Tweet — "Only Agent Communication Layer" Narrative
+
+People ask: \"Aren\'t there many agent messaging protocols?\"
+
+Short answer: Yes. But none are production-ready.
+
+- ADMP (0 stars) — spec only
+- UAM (20 stars) — experimental relay
+- OpenFused (11 stars) — file-based memory
+- AIRC (v0.2) — identity layer, no messaging features
+- **Agent Messenger** — production beta, webapp, CLI, 200+ users, E2E encryption
+
+We\'re not just another protocol. We\'re the only *complete product* in this category.
+
+---
+

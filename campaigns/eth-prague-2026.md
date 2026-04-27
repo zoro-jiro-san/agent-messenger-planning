@@ -1,90 +1,68 @@
-# Campaign Brief: ETH Prague Hackathon 2026
+# Campaign Brief: ETH Prague 2026 — The Production Agent Track
 
-**Campaign:** Agent Messaging Track — ETH Prague 2026  
-**Date:** June 2026 (TBD — event dates)  
-**Location:** Prague, Czech Republic (with remote participation option)  
-**Budget:** $3,000 prize pool + travel sponsorship for 2 teams  
-**Goal:** Position Agent Messenger as the coordination layer for agent-based dApps; drive 10+ hackathon projects using it  
+**Track name:** "From Demo to Deployment: Agent Infrastructure That Lasts"
+**Rationale:** ETH Prague 2026 theme emphasizes *real-world impact*. We shift from "build something cool" to "build something *deployable*." Judges value sustainability, privacy, and governance — aligns perfectly with Agent Messenger's production-readiness messaging.
 
----
+**Track prizes (total $5,000 — increased from $3K to attract serious teams):**
+1. **Best Production-Ready Integration** — $2,500
+   - Criteria: Code quality, documentation, error handling, deployability
+   - Must include: Dockerfile, README with setup steps, integration test suite
+   - Bonus: Published to npm/PyPI or merged into upstream framework
+2. **Best Real-World Impact Use Case** — $1,500
+   - Criteria: Solves actual user problem, not just tech demo
+   - Examples: DAO governance assistant, DeFi risk agent coordination, NFT community management
+   - Must include: User story, problem statement, impact metrics
+3. **Best Privacy-Preserving Design** — $1,000 (NEW)
+   - **Aligned with ETHPrague "Future Society" track**
+   - Criteria: GDPR-compliant data handling, minimal data retention, encryption-at-rest
+   - Must include: Data flow diagram, privacy policy snippet, consent mechanism
 
-## Why ETH Prague?
+**Pre-hackathon prep (April–May 2026):**
 
-- Major Ethereum ecosystem event (thousands of devs, researchers, builders)
-- 2026 theme: **Agent-native applications** (likely given trajectory)
-- Masumi + Serviceplan + NMKR have EU presence (legitimacy)
-- Chance to demo **agent-to-agent deal flow** with x402 + payment integration
+| Date | Action | Owner |
+|------|--------|-------|
+| Apr 30 | Publish "Production-Ready Starter Kit" repo: Docker-compose deployment, monitoring setup, test suite scaffold | Eng |
+| May 7 | Release "Agent Messenger Compliance Guide": GDPR considerations, data retention defaults, audit logging how-to | Docs |
+| May 14 | Blog post: "What Makes an Agent System Production-Ready? 5 Lessons from 12 Months of Deployments" (leak Viqus/Mindra production lessons) | Content |
+| May 21 | Contact ETH Prague organizers: propose panel talk "Infrastructure for Sustainable Agent Ecosystems" (position as thought leader, not just sponsor) | Founder |
+| May 28 | Discord #eth-prague channel opens; weekly office hours begin (recorded for remote participants) | Community |
 
----
+**Hackathon weekend (June 2026) — revised structure:**
 
-## Campaign Theme
+**Friday:**
+- Workshop 1 (90 min): "Building Production Agents — Error Handling, Observability, and Deployability"
+  - Live coding: build a CI/CD agent squad with retries, status reporting, human escalation
+  - Emphasize: structured logging, health checks, graceful degradation
+- Workshop 2 (60 min): "Privacy by Design for Agent Communication"
+  - GDPR principles applied to agent messaging
+  - Data minimization: what to log vs. what to encrypt
+  - User consent flows for human-in-the-loop approvals
 
-**Track name:** "Build Agent Teams That Talk"  
-**Tagline:** "Your agent needs a phone number. Give it one."  
-**Prize tracks:**
-1. **Best overall agent messaging project** — $1,500
-2. **Best integration with A2A / MCP** — $1,000
-3. **Best use of Masumi payment + Agent Messenger** — $500
+**Saturday:**
+- Judge Meet & Greet (informal) — focus on "real-world impact" criteria
+- Technical office hours: monitoring setup (Prometheus metrics), alert configuration, chaos testing (agent failure scenarios)
 
----
+**Sunday (Demo Day):**
+- **Judging rubric weights** (align with ETHPrague values):
+  - Innovation (20%)
+  - **Production-readiness (30%)** — NEW PRIORITY
+  - Real-world impact (30%)
+  - Privacy/ethics (20%) — aligns with "Future Society" track
+- Demo requirement: **deploy to Railway/Render/Fly.io and show live dashboard** (not just localhost)
 
-## Pre-Hackathon (April–May)
+**Post-hackathon:**
+- Publish all projects to GitHub with "eth-prague-2026" tag
+- Offer winning teams: 3-month free enterprise tier + security audit
+- Publish winner case studies with **deployment metrics** (uptime, messages sent, human escalations)
+- Invite top 2 teams to contribute to Agent Messenger documentation as "hackathon alumni"
 
-| Time | Action |
-|------|--------|
-| 8 weeks out | Confirm ETH Prague partnership + track slot (submit proposal) |
-| 7 weeks out | Publish hackathon starter kit repo (`eth-prague-agent-messenger-starter`) |
-| 6 weeks out | Blog post: "Building multi-agent teams with Agent Messenger" |
-| 5 weeks out | Workshop video (pre-recorded) + live session schedule |
-| 4 weeks out | Discord `#eth-prague` channel opens; office hours begin (weekly) |
-| 3 weeks out | Push to ETH Prague Discord + Telegram groups |
-| 2 weeks out | PR to ETH Prague GitHub repo (if they have one) |
-| 1 week out | Final reminder tweet + countdown |
-
----
-
-## Hackathon Weekend
-
-**Workshop 1 (Friday):** "Agent Messenger 101 — give your agent a phone number" (1 hour, hands-on)  
-**Workshop 2 (Saturday):** "Building orchestrator teams with A2A + Agent Messenger" (1 hour)  
-**Office hours:** Slack/Discord 24/7 monitoring, 2–3 person rotation  
-**Demo booth:** Physical (if in-person) + virtual room for remote teams  
-**Judging criteria:** Innovation (30%), completion (30%), integration quality (20%), UX polish (20%)  
-**Demo day:** 3-minute presentations per team, live Q&A
-
----
-
-## Integration Points to Push
-
-| Protocol | Tech | Why it matters for ETH Prague |
-|----------|------|------------------------------|
-| **A2A** | Task delegation | Agents can message to *negotiate* before delegating |
-| **MCP** | Tool access | Agents can message results between specialists |
-| **x402** | Micro-payments | Agent Messenger handles *pre/post* payment chat |
-| **Masumi SDK** | Identity + escrow | Show full lifecycle: discover → message → pay → deliver |
-| **Farcaster / ENS** | Identity resolution | Agent address = `sarthi.eth` or `sarthi.fc` |
+**Success metrics (revised):**
+- **≥ 5 projects deployed to public hosting** (not just GitHub repos)
+- **≥ 2 PRs submitted to upstream frameworks** (Hermes, OpenCode) demonstrating integration
+- **≥ 3 teams complete security checklist** (encryption, audit logging, data minimization)
+- **Media coverage** highlighting Agent Messenger as "infrastructure for sustainable agent economies"
 
 ---
 
-## Sample Hackathon Project Ideas
-
-1. **DAO governance assistant** — Proposer agent messages delegates, collects votes via thread, triggers execution
-2. **DeFi agent squad** — Research agent → Analyst agent → Trader agent → all coordinate via Agent Messenger
-3. **NFT minter botnet** — Art generator agent → Metadata agent → Minting agent — chat-driven pipeline
-4. **Cross-chain bridge monitor** — Alert agents across chains message each other when bridge fills
-5. **Developer productivity suite** — CI agent → QA agent → Release agent → human approval via TUI
-
----
-
-## Post-Hackathon
-
-- **Demo recording** — publish all project demos on YouTube
-- **Winner interviews** — blog post series on top 3 projects
-- **Integration PRs** — help teams ship their projects to main repos
-- **Retrospective** — lessons learned, feature gaps discovered
-- **Recruit contributors** — invite standout hackers to become maintainers
-
----
-
-**Owner:** TBD (likely same as Product Hunt lead)  
-**Collaborators:** Masumi core team, ETH Prague organizers, community mods
+**Owner:** Marketing lead + community team
+**Collaborators:** Masumi core team, ETH Prague organizers, Sokosumi (co-sponsor)

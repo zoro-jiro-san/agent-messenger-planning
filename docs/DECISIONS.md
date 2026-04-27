@@ -193,3 +193,85 @@ Each decision entry:
 
 **Usage:**  
 Add new decisions chronologically at TOP of "Active Decisions" section. Move to "Archived" only if superseded or closed.
+
+---
+
+## Active Decisions (continued)
+
+### DECISION-007: Position Security as Primary Enterprise Moat
+
+**Date:** 2026-04-27
+**Context:** MCP disclosed systemic RCE vulnerability (Apr 2026) affecting 200K+ servers. Enterprise buyers now security-conscious. Agent Messenger's E2E encryption is a differentiating weapon, not just a feature.
+
+**Decision:** Lead all enterprise-facing content with security differentiation. Create dedicated security comparison materials (FAQ, whitepaper, battle cards). Position as "secure coordination layer for regulated industries."
+
+**Rationale:** Security is now a procurement requirement (SOC2, GDPR, NIST AI RMF). MCP's documented vulnerability creates immediate contrast. Our client-side E2E design eliminates server-side attack surface. This is a time-sensitive competitive advantage.
+
+**Consequences:** ✅ Clear differentiation in crowded market; ✅ Justifies premium pricing; ❌ Requires third-party audit to fully capitalize.
+
+**Revisit:** After third-party security audit completed (target Aug 2026).
+
+---
+
+### DECISION-008: Adopt Production-Readiness as Primary Hackathon Metric
+
+**Date:** 2026-04-27
+**Context:** ETH Prague 2026 emphasizes "real-world impact" and "sustainability." Original prize structure ($3K for demos) attracts toy projects, not production integrations.
+
+**Decision:** Redesign ETH Prague track to prioritize production-readiness (30% weight), real-world impact (30%), and privacy/ethics (20%). Require public deployment (not just GitHub) for eligibility. Increase prize pool to $5K.
+
+**Rationale:** Aligns with ETHPrague "Future Society" values. Attracts serious teams building deployable agent infrastructure. Generates production-ready integrations, not demos. Creates case studies with deployment metrics.
+
+**Consequences:** ✅ Higher-quality submissions; ✅ Better post-hackathon adoption; ❌ Higher bar may reduce participation (offset by larger prize pool).
+
+**Revisit:** After ETH Prague 2026; assess submission quality and adjust rubric for future events.
+
+---
+
+### DECISION-009: Elevate Sokosumi to Tier 1a Partnership Target
+
+**Date:** 2026-04-27
+**Context:** Sokosumi is a Masumi Network product in same ecosystem. Agent Messenger provides the missing communication layer for Sokosumi's agentic coworker marketplace. Integration is co-dependent (both products gain value).
+
+**Decision:** Treat Sokosumi as a **co-dependent product** rather than simple partner. Create joint integration plan with shared roadmap. Position as "Agent Messenger + Sokosumi" combined solution for EU agent workforce.
+
+**Rationale:** Sokosumi already has 500+ enterprises, GDPR compliance, EU AI Act alignment. Agent Messenger provides the conversational layer Sokosumi lacks. Joint go-to-market creates immediate beachhead in EU marketplace segment.
+
+**Consequences:** ✅ Immediate production deployment; ✅ Enterprise credibility through Sokosumi brand; ❌ Tight coupling to single product requires close coordination.
+
+**Revisit:** Q4 2026 — assess whether partnership model should expand to other marketplaces (not just Sokosumi).
+
+---
+
+### DECISION-010: Aggressive GitHub Stars Target (5K by Day 30)
+
+**Date:** 2026-04-27
+**Context:** Developer mindshare follows visible adoption. Hermes grew 9,500 stars/week without marketing. Agent Messenger at 0 stars pre-launch faces vicious cycle: no stars → no social proof → no adoption.
+
+**Decision:** Target 500 stars Day 1, 2,000 stars Day 7, **5,000 stars Day 30**, 15,000 stars Day 90. Pre-seed stars from beta program (require GitHub star to join). Merge Hermes PR on Day 2 (not Day 7) to show momentum.
+
+**Rationale:** Stars are proxy for mindshare. Framework maintainers won't integrate zero-star projects. Press coverage requires "big numbers." Stretch but achievable given broader market need (every multi-agent system needs messaging vs single-agent framework like Hermes).
+
+**Consequences:** ✅ Accelerates adoption flywheel; ✅ Attracts framework attention early; ❌ Requires aggressive promotion cadence; ⚠️ Risk of star inflation without corresponding active users.
+
+**Revisit:** Weekly review during launch month. If Day 7 < 1,000 stars, amplify Twitter outreach and consider small paid promotion budget.
+
+---
+
+### DECISION-011: Create "State of Agent Messaging 2026" Competitive Analysis
+
+**Date:** 2026-04-27
+**Context:** Spec-stage projects (ADMP, UAM, OpenFused, AIRC) muddy category definition despite zero production adoption. Need clear, evidence-based positioning as "only production-ready agent social layer."
+
+**Decision:** Publish a comprehensive comparison blog post and data sheet quantifying: stars, production users, features (E2E encryption, webapp, human approvals, framework integration, production deployments). Update all marketing copy to frame competitors as "spec-stage" vs Agent Messenger's "production product."
+
+**Rationale:** Enterprise buyers need clear differentiators in early markets. Competing specs create FUD ("which standard will win?"). Hard evidence (production numbers, features, integrations) cuts through noise.
+
+**Consequences:** ✅ Positions Agent Messenger as category leader; ✅ Creates reusable sales collateral; ❌ Requires continuous monitoring as competitors evolve.
+
+**Revisit:** Quarterly or when new protocol announces production deployment.
+
+---
+
+**Last updated:** 2026-04-27
+**Next review:** 2026-05-04

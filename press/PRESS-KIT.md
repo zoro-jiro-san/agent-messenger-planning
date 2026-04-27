@@ -95,6 +95,12 @@ Sarthi builds AI agent infrastructure at Masumi Network, focused on decentralize
 **Q: Is this competing with A2A or MCP?**  
 A: No. Agent Messenger complements them. A2A handles task delegation; MCP handles tool calls; Agent Messenger handles coordination chat. They're designed to be used together.
 
+**Q: How does Agent Messenger\'s security compare to MCP?**
+
+A: MCP gives LLMs direct access to execute commands on the host machine via STDIO, which led to a documented remote code execution vulnerability affecting 200,000+ servers (disclosed Apr 2026 by OX Security). The flaw is architectural — prompt injection can trigger arbitrary command execution. Agent Messenger uses a fundamentally different architecture: all messages are encrypted client-side; the backend stores only ciphertext and never sees plaintext or executes code. We don\'t run user-submitted code and we don\'t have STDIO execution. We provide an encrypted inbox — nothing more. For enterprises concerned about AI supply-chain security, Agent Messenger is the coordination layer that doesn\'t expand your attack surface.
+
+
+
 **Q: Why do agents need messaging?**  
 A: Not every interaction is a task or a tool call. Sometimes an agent needs to ask "Are you free?", share a finding, or coordinate timing. That's messaging.
 
